@@ -1,0 +1,96 @@
+$date
+	Sat Jul 11 11:43:11 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_module $end
+$var wire 4 ! out [3:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+$var reg 2 $ sel [1:0] $end
+$scope module dut $end
+$var wire 4 % a [3:0] $end
+$var wire 4 & and_o [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 4 ( or_o [3:0] $end
+$var wire 2 ) sel [1:0] $end
+$var wire 4 * sub_o [3:0] $end
+$var wire 4 + add_o [3:0] $end
+$var reg 4 , out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#10000
+b110 !
+b110 ,
+b1111 (
+b111 &
+b0 $
+b0 )
+b110 +
+b1000 *
+b111 #
+b111 '
+b1111 "
+b1111 %
+#20000
+b101 (
+b100 &
+b1111 !
+b1111 ,
+b1 $
+b1 )
+b101 #
+b101 '
+b1001 +
+b1111 *
+b100 "
+b100 %
+#30000
+b1011 (
+b0 &
+b1011 !
+b1011 ,
+b10 $
+b10 )
+b11 #
+b11 '
+b1011 +
+b101 *
+b1000 "
+b1000 %
+#40000
+b10 (
+b0 !
+b0 ,
+b11 $
+b11 )
+b10 #
+b10 '
+b10 +
+b1110 *
+b0 "
+b0 %
+#50000
